@@ -1,25 +1,25 @@
 {
-  "name": "react-mathquill",
-  "version": "0.2.8",
+  "name": "react-mathquill-extenstion",
+  "version": "1.0.0",
   "description": "React component wrapper for Mathquill",
   "main": "index.js",
   "typings": "index.d.ts",
-  "repository": "git@github.com:viktorstrate/react-mathquill.git",
-  "author": "viktorstrate <viktorstrate@gmail.com>",
+  "repository": "git@github.com:carveniche/react-mathquill-latex.git",
+  "author": "General",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "webpack --mode development",
     "build": "webpack --mode production",
     "test": "eslint src/ examples/src/",
-    "start:example": "webpack --mode development --watch & webpack-dev-server --config webpack.examples.js --mode development",
+    "start:example": "webpack --mode development & webpack-dev-server --config webpack.examples.js --mode development",
     "build:example": "npm run build && webpack --mode production --config webpack.examples.js",
     "deploy": "npm run build:example && gh-pages -d examples/dist",
     "prepublish": "rm -rf dist/ && npm run build",
     "prepublishOnly": "npm run test"
   },
   "dependencies": {
-    "@edtr-io/mathquill": "^0.11.0",
+    "@anishtiwari09/mathquills": "^1.0.1",
     "jquery": "^3.5.1",
     "prop-types": "^15.7.2"
   },

@@ -28,9 +28,12 @@ class StaticMathExample extends React.Component {
     return (
       <div>
         <h1>Static Math Example</h1>
-        <StaticMathField>{this.state.latex}</StaticMathField>
+        <StaticMathField>{`\\begin{matrix}
+1 & 2 & 3\\\\
+a & b & c
+\\end{matrix}`}</StaticMathField>
         <br />
-        <button onClick={this.onChange}>Change</button>
+       
       </div>
     )
   }
