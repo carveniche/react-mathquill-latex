@@ -1,4 +1,4 @@
-import style from '@anishtiwari09/mathquills/build/mathquill.css'
+import style from '@carveniche/mathquill/build/mathquill.css'
 
 export function addStyles() {
   if (document.getElementById('react-mathquill-styles') == null) {

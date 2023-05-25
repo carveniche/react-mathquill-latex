@@ -1,6 +1,6 @@
 {
   "name": "react-mathquill-extenstion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component wrapper for Mathquill",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -19,7 +19,7 @@
     "prepublishOnly": "npm run test"
   },
   "dependencies": {
-    "@anishtiwari09/mathquills": "^1.0.1",
+    "@carveniche/mathquill": "^1.0.1",
     "jquery": "^3.5.1",
     "prop-types": "^15.7.2"
   },

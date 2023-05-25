@@ -11,7 +11,7 @@ addMathquillStyles()
 
 const App = () => (
   <div>
-    <EditableMathExample />
+    
     <StaticMathExample />
   </div>
 )
